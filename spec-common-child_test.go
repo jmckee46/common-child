@@ -8,7 +8,7 @@ func TestCommonChild1(t *testing.T) {
 	lcs := commonChild(s1, s2)
 
 	if lcs != 4 {
-		t.Errorf("got %d instead of 124", lcs)
+		t.Errorf("got %d instead of 4", lcs)
 	}
 }
 
